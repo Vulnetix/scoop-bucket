@@ -1,0 +1,49 @@
+{
+    "version": "1.1.1",
+    "description": "Vulnetix CLI for vulnerability management",
+    "homepage": "https://github.com/Vulnetix/cli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Vulnetix/cli/releases/download/v1.1.1/vulnetix-windows-amd64.exe#/vulnetix.exe",
+            "hash": "f6ec985d2e6a4cadbcc385cf114ac283beea74efda20615707ab5897634cba64"
+        },
+        "32bit": {
+            "url": "https://github.com/Vulnetix/cli/releases/download/v1.1.1/vulnetix-windows-386.exe#/vulnetix.exe",
+            "hash": "882b9224efcea73f382d967e392243ed0fb845923c51ec600a2bdf56e3aa0639"
+        },
+        "arm64": {
+            "url": "https://github.com/Vulnetix/cli/releases/download/v1.1.1/vulnetix-windows-arm64.exe#/vulnetix.exe",
+            "hash": "3c8cdab168a41040972d9a4b18832102a2cc97347a27b9b306e6cb4b7ea383f5"
+        }
+    },
+    "bin": "vulnetix.exe",
+    "checkver": {
+        "github": "https://github.com/Vulnetix/cli"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Vulnetix/cli/releases/download/v$version/vulnetix-windows-amd64.exe#/vulnetix.exe",
+                "hash": {
+                    "url": "https://github.com/Vulnetix/cli/releases/download/v$version/checksums.txt",
+                    "regex": "([a-fA-F0-9]{64})  vulnetix-windows-amd64.exe"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/Vulnetix/cli/releases/download/v$version/vulnetix-windows-386.exe#/vulnetix.exe",
+                "hash": {
+                    "url": "https://github.com/Vulnetix/cli/releases/download/v$version/checksums.txt",
+                    "regex": "([a-fA-F0-9]{64})  vulnetix-windows-386.exe"
+                }
+            },
+            "arm64": {
+                "url": "https://github.com/Vulnetix/cli/releases/download/v$version/vulnetix-windows-arm64.exe#/vulnetix.exe",
+                "hash": {
+                    "url": "https://github.com/Vulnetix/cli/releases/download/v$version/checksums.txt",
+                    "regex": "([a-fA-F0-9]{64})  vulnetix-windows-arm64.exe"
+                }
+            }
+        }
+    }
+}
