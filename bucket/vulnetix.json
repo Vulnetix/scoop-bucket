@@ -1,20 +1,20 @@
 {
-    "version": "1.27.0",
+    "version": "1.27.1",
     "description": "Vulnetix CLI for vulnerability management",
     "homepage": "https://github.com/Vulnetix/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Vulnetix/cli/releases/download/v1.27.0/vulnetix-windows-amd64.exe#/vulnetix.exe",
-            "hash": "f80f8de2d27e251db6daae4188cb074a50d5da1d0fa99fbf3e33cfbdef55cf4e"
+            "url": "https://github.com/Vulnetix/cli/releases/download/v1.27.1/vulnetix-windows-amd64.exe#/vulnetix.exe",
+            "hash": "bd1ec5030d9d04378304e0e53ec148cca9748ecfab7d15fe793ffe3a5c09a0ab"
         },
         "32bit": {
-            "url": "https://github.com/Vulnetix/cli/releases/download/v1.27.0/vulnetix-windows-386.exe#/vulnetix.exe",
-            "hash": "7d830ef3052bc03b5b0fb093ba9c27a9086ab79928f8bcfa842d2a3d32f71014"
+            "url": "https://github.com/Vulnetix/cli/releases/download/v1.27.1/vulnetix-windows-386.exe#/vulnetix.exe",
+            "hash": "12e14c2e87387a3863dc7619f5c7286ed7a48287894471e82b61ef7741cc9834"
         },
         "arm64": {
-            "url": "https://github.com/Vulnetix/cli/releases/download/v1.27.0/vulnetix-windows-arm64.exe#/vulnetix.exe",
-            "hash": "37348e48aab2e93e1f8b729906e505f4b26b676fe13564c737a197f669bf8a8e"
+            "url": "https://github.com/Vulnetix/cli/releases/download/v1.27.1/vulnetix-windows-arm64.exe#/vulnetix.exe",
+            "hash": "046c6742a806cdcc119b4850ca1f6d69433a78c17eca2865ee55dda85c42afc5"
         }
     },
     "bin": "vulnetix.exe",
