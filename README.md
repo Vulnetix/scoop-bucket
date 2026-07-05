@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="pix.svg" alt="Pix, the Vulnetix mascot" width="110">
+</p>
+
 # Vulnetix Scoop Bucket
 
 [Scoop](https://scoop.sh/) bucket for [Vulnetix CLI](https://github.com/Vulnetix/cli) on Windows.
