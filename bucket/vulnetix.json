@@ -1,16 +1,16 @@
 {
-    "version": "3.84.0",
+    "version": "3.84.1",
     "description": "Vulnetix CLI for vulnerability management",
     "homepage": "https://github.com/Vulnetix/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Vulnetix/cli/releases/download/v3.84.0/vulnetix-windows-amd64.exe#/vulnetix.exe",
-            "hash": "87324d8501870b8037bd3bd1e5171258c3987bc74d0487d45e1cc31b750fd7bb"
+            "url": "https://github.com/Vulnetix/cli/releases/download/v3.84.1/vulnetix-windows-amd64.exe#/vulnetix.exe",
+            "hash": "48f137aaa7a6014f4021b8792e009cd8fbebe836b120d1047ce94285806201d5"
         },
         "arm64": {
-            "url": "https://github.com/Vulnetix/cli/releases/download/v3.84.0/vulnetix-windows-arm64.exe#/vulnetix.exe",
-            "hash": "5897c185ae0f9a3e6a803dc87edde67e44b56ebab174ede03953cf45f2480d06"
+            "url": "https://github.com/Vulnetix/cli/releases/download/v3.84.1/vulnetix-windows-arm64.exe#/vulnetix.exe",
+            "hash": "e9fd3a7460680338135e9438ec470481b644eedfc788c6b1acb55679b96f5bd1"
         }
     },
     "bin": "vulnetix.exe",
