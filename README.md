@@ -44,4 +44,4 @@ scoop bucket rm vulnetix
 
 - [Vulnetix CLI Documentation](https://docs.cli.vulnetix.com/)
 - [GitHub Releases](https://github.com/Vulnetix/cli/releases)
-<!-- ci-touch: 2026-08-14T04:04:34Z -->
+<!-- ci-touch: 2026-08-24T13:23:20Z -->
