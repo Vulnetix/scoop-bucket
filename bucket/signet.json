@@ -1,0 +1,38 @@
+{
+    "version": "0.1.0",
+    "description": "Role-managed, injection-safe LLM coding harness",
+    "homepage": "https://github.com/Vulnetix/signet",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Vulnetix/signet/releases/download/v0.1.0/signet-windows-amd64.exe#/signet.exe",
+            "hash": "7e80d95b46fc7138fe9518e9c62dfe73290c221c6cee1118d8843ceb9f813a3b"
+        },
+        "arm64": {
+            "url": "https://github.com/Vulnetix/signet/releases/download/v0.1.0/signet-windows-arm64.exe#/signet.exe",
+            "hash": "4adcbb3a56524e83e017509ca1ede7af0207e29ed3ce95a1c429040f57837f6d"
+        }
+    },
+    "bin": "signet.exe",
+    "checkver": {
+        "github": "https://github.com/Vulnetix/signet"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Vulnetix/signet/releases/download/v$version/signet-windows-amd64.exe#/signet.exe",
+                "hash": {
+                    "url": "https://github.com/Vulnetix/signet/releases/download/v$version/checksums.txt",
+                    "regex": "([a-fA-F0-9]{64})  signet-windows-amd64.exe"
+                }
+            },
+            "arm64": {
+                "url": "https://github.com/Vulnetix/signet/releases/download/v$version/signet-windows-arm64.exe#/signet.exe",
+                "hash": {
+                    "url": "https://github.com/Vulnetix/signet/releases/download/v$version/checksums.txt",
+                    "regex": "([a-fA-F0-9]{64})  signet-windows-arm64.exe"
+                }
+            }
+        }
+    }
+}
