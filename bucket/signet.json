@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Vulnetix/signet/releases/download/v0.8.0/signet-windows-amd64.exe#/signet.exe",
-            "hash": "bb8a261f386d306618041f78c9a6641eef64aa8b67c55011176c787c5c808f93"
+            "hash": "2bb20f7da82a8d29b62977990eaf0f9b2b0d5bdb7d02f16f7f902ae86e23ab25"
         },
         "arm64": {
             "url": "https://github.com/Vulnetix/signet/releases/download/v0.8.0/signet-windows-arm64.exe#/signet.exe",
-            "hash": "07987f09a5daaeed3104f02d43e6bcd0bed4b75073306ff958ea17c4c1cc225f"
+            "hash": "cd61408b89c683771bec19efcd68bdffa78a38f9f7739470fabfe894cfc46641"
         }
     },
     "bin": "signet.exe",
