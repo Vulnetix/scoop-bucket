@@ -1,16 +1,16 @@
 {
-    "version": "0.12.0",
+    "version": "0.13.0",
     "description": "Role-managed, injection-safe LLM coding harness",
     "homepage": "https://github.com/Vulnetix/signet",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Vulnetix/signet/releases/download/v0.12.0/signet-windows-amd64.exe#/signet.exe",
-            "hash": "1e1890399de9fe8c827627ebc5ca553fea67b6e4091ae580d357e80fa081a6f4"
+            "url": "https://github.com/Vulnetix/signet/releases/download/v0.13.0/signet-windows-amd64.exe#/signet.exe",
+            "hash": "d69ef149eda5e63414c1213f20f57d6a8b0cc1c4026a46ce5edea2dfd8b19336"
         },
         "arm64": {
-            "url": "https://github.com/Vulnetix/signet/releases/download/v0.12.0/signet-windows-arm64.exe#/signet.exe",
-            "hash": "d1db812d9a4a9ba19128412a2193092902c82fc393b9129593de23a38dcd58b2"
+            "url": "https://github.com/Vulnetix/signet/releases/download/v0.13.0/signet-windows-arm64.exe#/signet.exe",
+            "hash": "303836b35dec57376fce36f37259b51c01e803b6a44e37b2e492acffcc82c382"
         }
     },
     "bin": "signet.exe",
