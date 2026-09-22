@@ -1,16 +1,16 @@
 {
-    "version": "0.44.2",
+    "version": "0.45.0",
     "description": "Role-managed, injection-safe LLM coding harness",
     "homepage": "https://github.com/Vulnetix/signet",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Vulnetix/signet/releases/download/v0.44.2/signet-windows-amd64.exe#/signet.exe",
-            "hash": "2449cac1ff5858325f914e0b14c3a285e51fb22557e9df524bab9755928e08c9"
+            "url": "https://github.com/Vulnetix/signet/releases/download/v0.45.0/signet-bert-guardrails-windows-amd64.exe#/signet.exe",
+            "hash": "78173cc3446e19c9b074a362da5f057fbb62c8c418d727d1c0bda379fd1821b5"
         },
         "arm64": {
-            "url": "https://github.com/Vulnetix/signet/releases/download/v0.44.2/signet-windows-arm64.exe#/signet.exe",
-            "hash": "343a1e26b8fc98e29ec6fc2249679bf6da30dc04a05be1c94899dde5d92eb3d0"
+            "url": "https://github.com/Vulnetix/signet/releases/download/v0.45.0/signet-bert-guardrails-windows-arm64.exe#/signet.exe",
+            "hash": "1f367c21437e2b29864a6e2ff194d6f01b9f1aaa5c43551a847602692dfcb6bd"
         }
     },
     "bin": "signet.exe",
@@ -20,17 +20,17 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Vulnetix/signet/releases/download/v$version/signet-windows-amd64.exe#/signet.exe",
+                "url": "https://github.com/Vulnetix/signet/releases/download/v$version/signet-bert-guardrails-windows-amd64.exe#/signet.exe",
                 "hash": {
                     "url": "https://github.com/Vulnetix/signet/releases/download/v$version/checksums.txt",
-                    "regex": "([a-fA-F0-9]{64})  signet-windows-amd64.exe"
+                    "regex": "([a-fA-F0-9]{64})  signet-bert-guardrails-windows-amd64.exe"
                 }
             },
             "arm64": {
-                "url": "https://github.com/Vulnetix/signet/releases/download/v$version/signet-windows-arm64.exe#/signet.exe",
+                "url": "https://github.com/Vulnetix/signet/releases/download/v$version/signet-bert-guardrails-windows-arm64.exe#/signet.exe",
                 "hash": {
                     "url": "https://github.com/Vulnetix/signet/releases/download/v$version/checksums.txt",
-                    "regex": "([a-fA-F0-9]{64})  signet-windows-arm64.exe"
+                    "regex": "([a-fA-F0-9]{64})  signet-bert-guardrails-windows-arm64.exe"
                 }
             }
         }
