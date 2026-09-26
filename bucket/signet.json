@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Vulnetix/signet/releases/download/v0.49.11/signet-bert-guardrails-windows-amd64.exe#/signet.exe",
-            "hash": "d3eb71e696b81b30415a1f969e5497190003c0ec6fa9414277e0b37ea4b258cc"
+            "hash": "8d612f70f89f8d93181a80bafb0dcb0725bb58f83c9a65f2d54533c3dccc9f13"
         },
         "arm64": {
             "url": "https://github.com/Vulnetix/signet/releases/download/v0.49.11/signet-bert-guardrails-windows-arm64.exe#/signet.exe",
-            "hash": "3cb582acfcdd7007188f0f6cbe6bb54f0ba34be868ec4fbe935e682ba6aff244"
+            "hash": "090d43b059fe7612bc2813979cd75168f87d29bcd869dad7429c868d97eb22d4"
         }
     },
     "bin": "signet.exe",
