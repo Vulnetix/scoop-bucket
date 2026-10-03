@@ -1,16 +1,16 @@
 {
-    "version": "0.111.0",
+    "version": "0.112.0",
     "description": "Role-managed, injection-safe LLM coding harness",
     "homepage": "https://github.com/Vulnetix/belai",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Vulnetix/belai/releases/download/v0.111.0/belai-bert-guardrails-windows-amd64.exe#/belai.exe",
-            "hash": "a838b47cebd303c89499f12c1223f252cda0a4acb3b1d39bca0cc9e3a0afd6a9"
+            "url": "https://github.com/Vulnetix/belai/releases/download/v0.112.0/belai-bert-guardrails-windows-amd64.exe#/belai.exe",
+            "hash": "4a046a9a61a710588701b7f9224243bfebdc2249502042623b16c0ed821780e2"
         },
         "arm64": {
-            "url": "https://github.com/Vulnetix/belai/releases/download/v0.111.0/belai-bert-guardrails-windows-arm64.exe#/belai.exe",
-            "hash": "8aca4f8bedb7d6387959d4fb95d227d529dc5c9b661fef512789ccb80dca36cd"
+            "url": "https://github.com/Vulnetix/belai/releases/download/v0.112.0/belai-bert-guardrails-windows-arm64.exe#/belai.exe",
+            "hash": "502836f36fbc7c07a4b7ebb3baa0817f05ec5ed85eca631129ea87224480a2bf"
         }
     },
     "bin": "belai.exe",
