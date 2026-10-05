@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Vulnetix/belai/releases/download/v0.122.1/belai-bert-guardrails-windows-amd64.exe#/belai.exe",
-            "hash": "5decd255b7545454c2270ad65369fc1d9e58fc4a52d8f1a7602ce26857d8b26e"
+            "hash": "5a614bc036f36471babe6e3da158f24dbef2a96fa7bf511fa98587e6777ed1d9"
         },
         "arm64": {
             "url": "https://github.com/Vulnetix/belai/releases/download/v0.122.1/belai-bert-guardrails-windows-arm64.exe#/belai.exe",
-            "hash": "30d1221319562d0afa02c14b54bb61308178a624d2d9ba38d5cdff1aeb43d436"
+            "hash": "9e55cc248a84e1b9537b809ac1c45a72a8305c2229456081af2b797fc6add2e4"
         }
     },
     "bin": "belai.exe",
