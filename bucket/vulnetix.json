@@ -1,16 +1,16 @@
 {
-    "version": "3.125.6",
+    "version": "3.125.7",
     "description": "Vulnetix CLI for vulnerability management",
     "homepage": "https://github.com/Vulnetix/cli",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Vulnetix/cli/releases/download/v3.125.6/vulnetix-windows-amd64.exe#/vulnetix.exe",
-            "hash": "e0aee4765770289c9a5d7eed08d7d4121e6d02d1fe3d47636b257cd687fbf124"
+            "url": "https://github.com/Vulnetix/cli/releases/download/v3.125.7/vulnetix-windows-amd64.exe#/vulnetix.exe",
+            "hash": "942c8fe0d7e5a6630c4e155b5aefdd1a37e2bc1d0fd7d982af3c300f670720ac"
         },
         "arm64": {
-            "url": "https://github.com/Vulnetix/cli/releases/download/v3.125.6/vulnetix-windows-arm64.exe#/vulnetix.exe",
-            "hash": "a37b07e0c98617f3597ba66f425ce78e5cc3f2686b7b18a7a208991328ec2712"
+            "url": "https://github.com/Vulnetix/cli/releases/download/v3.125.7/vulnetix-windows-arm64.exe#/vulnetix.exe",
+            "hash": "6d4c1bf4b32e114dae8a2269970199950ba41b6656e1568f2517f646b2e5518f"
         }
     },
     "bin": "vulnetix.exe",
